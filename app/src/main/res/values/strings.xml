@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tutorials</string>
+    <string name="main_menu_notification">Notifications</string>
+    <string name="notification_create">CREATE NOTIFICATION</string>
+    <string name="notification_cancel">CANCEL NOTIFICATION</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+</resources>
