@@ -8,7 +8,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "fr.vocality.tutorials"
+        applicationId "fr.vocaltech.android.tutorials"
         minSdk 24
         targetSdk 30
         versionCode 1
