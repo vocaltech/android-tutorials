@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="hello"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{hello}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/buttonTz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show TZ activity" />
+
+    </LinearLayout>
+</layout>
